@@ -1,0 +1,27 @@
+{
+  "name": "chris_lee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-http": "^1.0.0",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^5.5.4",
+    "mongoose": "^4.3.7"
+  }
+}
