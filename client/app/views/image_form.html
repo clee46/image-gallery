@@ -1,0 +1,10 @@
+<h1>This is a test!</h1>
+<section>
+  <form data-ng-submit="createImage(newImage)">
+    <label for="image">Image URL:</label>
+    <input type="text" name="image" data-ng-model="newImage.imageUrl">
+
+    <button type="submit">Submit Image URL</button>
+  </form>
+  <button data-ng-click="goHome()">View Gallery</button>
+</section>

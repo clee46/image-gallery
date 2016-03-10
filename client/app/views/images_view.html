@@ -1,0 +1,6 @@
+<section data-ng-init="getAllImages()">
+  <button data-ng-click="goForm()">Submit New Image</button>
+  <section data-ng-repeat="image in images">
+    <img ng-src="{{image.imageUrl}}" width="400" height="300"/>
+  </section>
+</section>

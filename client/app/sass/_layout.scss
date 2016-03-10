@@ -1,0 +1,53 @@
+header, footer, section {
+  border: 1px dotted black;
+}
+header, footer, .column-center {
+  background-color: #05243B;
+  text-align: center;
+}
+footer {
+  height: 50px;
+  p {
+    margin-top: 15px;
+  }
+}
+img {
+  display: inline-block;
+}
+.column-left {
+  float: left;
+  width: 39%;
+  height: 500px;
+  word-wrap: break-word;
+}
+.column-center {
+  display: inline-block;
+  width: 21%;
+  height: 500px;
+}
+.column-right {
+  float: right;
+  width: 39%;
+  height: 500px;
+  word-wrap: break-word;
+}
+th, td {
+  text-align: left;
+  padding: 5px;
+}
+th {
+  text-decoration: underline;
+}
+.new-player {
+  padding: 20px;
+}
+li {
+  margin: 10px 5px 10px 5px;
+  button {
+    float: right;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: blue;
+  }
+}
